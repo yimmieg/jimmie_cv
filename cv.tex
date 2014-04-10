@@ -1,0 +1,307 @@
+
+
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+\documentclass[11pt,letterpaper,sans]{moderncv}
+
+% moderncv themes
+\moderncvtheme[black]{classic}
+
+% enable bibliogrphy numbering
+\makeatletter
+\renewcommand*\bibliographyitemlabel{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+% multiple bibliographies
+\usepackage{multibib}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% replace by the encoding you are using
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+%\usepackage{pdfsync}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}
+
+% required when changes are made to page layout lengths
+% specificy multiple bibliographies
+\newcites{journals}{Journals}
+\newcites{inprocess}{In Process}
+\newcites{conferences}{Conference Proceedings}
+\newcites{talks}{Talks}
+\newcites{reviews}{Reviews}
+\newcites{underreview}{Under Review}
+
+% personal data
+\firstname{Chun ``Jimmie''} \familyname{Ye}
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvline{}{%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+% usage: \cvreference{name}{address line 1}{address line 2}{address line 3}{address line 4}{e-mail address}{phone number}
+% Everything but the name is optional
+% If \addresssymbol, \emailsymbol or \phonesymbol are specified, they will be used.
+% (Per default, \addresssymbol isn't specified, the other two are specified.)
+% If you don't like the symbols, remove them from the following code, including the tilde ~ (space).
+
+\newcommand{\cvreference}[8]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{#6\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\emailsymbol~\texttt{#7}\newline}%
+    \ifthenelse{\equal{#8}{}}{}{\phonesymbol~#8}}
+
+
+%\title{Postdoctoral Associate}               % optional, remove the line if not wanted
+\address{7 Cambridge Center \#6029}{Cambridge, MA 02142}
+
+% optional, remove the line if not wanted
+\mobile{(619) 316-7177}
+\phone{(617) 714-7758}
+
+% optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{yechun@broadinstitute.org}
+
+% optional, remove the line if not wanted
+%\homepage{www.broadinstitute.org/\~{}yechun}
+
+% optional, remove the line if not wanted
+%\photo[64pt]{jimmie.png}
+
+% '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+% \section{Research Interest}
+% \cvline{}{I'm interested in integrating high throughput data sets from
+%   molecular marker profiling such as gene expression, genetics such as
+%   genotyping and interaction experiments such as ChIP-on-chip to study
+%   the complex regulatory networks that govern gene expression.  I'm
+%   interested in both identifying novel genes responsible for the
+%   manifestation of a complex phenotype such as disease and
+%   understanding the relationship between these genes to find better
+%   candidates for follow up studies.  I have developed and would like
+%   to continue to develop both statistical models that sufficiently
+%   describe transcriptional regulatory networks and computation methods
+%   that efficiently analyze large quantities of data.  Much of my work
+%   is interdisciplinary and as such I’m interested in both theoretical
+%   problems such as multiple hypothesis testing, statistical modeling
+%   and causal inference as well as their application to biological
+%   data.}
+%\section{Personal Information}
+%\cvitem{Title} {Postdoctoral Associate}
+%\cvitem{Address} {7 Cambridge Center \#6029, Cambridge, MA 02142}
+%\cvitem{Work Phone} {617-714-7558}
+%\cvitem{Mobile Phone} {619-316-7177}
+%\cvitem{Email} {yechun@broadinstitute.org}
+%\cvitem{Webpage} {broadinstitute.org/\textasciitilde yechun}
+%\cvitem{Date of Birth}{November 28, 1980}
+%\cvitem{Citizenship}{United States}
+\section{Affiliation} \cvline{}{Postdoctoral Associate, Broad Institute}
+
+\section{Research Areas} \cvline{}{Expression Quantitative Trait Loci (eQTL) Mapping, Quantitative Genetics, Gene-environment Interactions, Next-generation DNA/RNA Sequencing}
+
+\section{Education} \cventry{2003--2009}{Ph.D.}{Bioinformatics and Systems Biology}{University of California}{San Diego, California}{}
+%Participated in Intercampus Exchange Program with the University of California, Los Angeles}
+
+%{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
+\cventry{1998--2002}{B.S.}{Computer Science}{University of California}{Berkeley, California}{}
+
+%{Berkeley, California}{}{}%{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
+\cventry{1998--2002}{B.S.}{Bioengineering}{University of California}{Berkeley, California}{}
+
+%{Berkeley, California}{}{}%{\textit{Grade}}{Description}  % arguments
+%3 to 6 are optional
+
+
+\section{Experience}
+
+\vspace*{1em}\subsection{Academic Research Positions}
+
+\cventry{2010--Present}{Postdoctoral Associate}{Cell Circuits Program}{Broad
+  Institute}{Cambridge, Massachusetts}{Principal Investigator: Aviv Regev, Ph.D.}
+
+\cventry{2009--2010}{Staff Research Associate}{Department of Computer Science}{University of
+  California}{Los Angeles, California}{Principal Investigator: Eleazar Eskin, Ph.D.}
+
+\cventry{2003--2009}{Graduate Student Researcher}{Department of Computer Science}{University of
+  California}{Los Angeles, California}{Advisor: Eleazar Eskin, Ph.D.}
+
+% arguments
+% 3 to 6 are optional
+\cventry{2005}{NSF East Asia and Pacific Summer Institute (EAPSI) Fellow}{Institute of Biophysics}{Chinese Academy of Sciences, Beijing, China}{}{Advisor: Runsheng Chen, Ph.D.}
+
+% arguments
+\cventry{2003}{Graduate Student Rotation Researcher}{Department of Computer Science}{University of California}{San Diego, California}{Advisor: Vineet Bafna, Ph.D.}
+
+% arguments
+\vspace*{1em}\subsection{Teaching Positions}
+\cventry{Summer, 2013}{Mentor}{}{Broad Institute}{Cambridge,
+  MA}{Research Science Institute}
+\cventry{Winter, 2008}{Teaching Assistant}{}{University of California}{Los Angeles, California}{Current Topics in Bioinformatics (Instructor: Eleazar Eskin, Ph.D.)}
+
+% arguments 3 to 6 are optional
+\cventry{Spring, 2007}{Teaching Assistant}{}{University of California}{Los Angeles, California}{Computational Genetics (Instructor: Eleazar Eskin, Ph.D.)}
+
+\cventry{Summer, 2004}{Graduate Student Coordinator}{}{University of California}{San Diego, California}{Summer Training Academy for Research in the Sciences (STARS)}
+
+% arguments 3 to 6 are optional
+\vspace*{1em}\subsection{Industry Positions} \cventry{2006--2009}{Discovery Biology
+  Intern}{Amylin Pharmaceuticals, Inc.}{San Diego, California}{}{Principal Investigator: Doug Fenger, Ph.D.}
+
+% arguments 3 to 6 are optional
+\cventry{2003}{Engineering Scientist}{Apple Computer, Inc.}{Cupertino,
+  California}{}{Supervisor: Gary Feierbach}
+
+\cventry{2001 and
+  2002}{Summer Intern}{Apple Computer, Inc.}{Cupertino, California}{}{Supervisor: Gary Feierbach}
+
+\cventry{2000}{Summer Intern}{Genentech, Inc.}{South San Francisco, California}{}{Principal Investigators: Lisa Bernstein, Ph.D. and Nick van Bruggen, Ph.D.}
+
+\section{Honors \& Awards}
+\cvline{2011-2014}{Extramural NIH Loan Repayment Program Award in
+  Clinical Research}
+\cvline{2013}{ASHG/Charles J. Epstein Trainee Award - Semifinalist}
+\cvline{2009}{March of Dimes General Scholarship}
+\cvline{2005}{National Science Foundation East Asia and Pacific Summer
+  Institutes Scholarship (EAPSI)}
+\cvline{2003-2005}{NIH NIGMS Training Grant}
+
+% arguments 3 to 6 are optional
+%\pagebreak
+
+% Publications from a BibTeX file
+\section{Publications}
+
+%%\subsection{Journals}
+\vspace*{1em}
+\nocitejournals{*}
+%%\subsection{Refereed Journal Papers} \nocitejournals{*}
+\bibliographystylejournals{unsrt}
+\bibliographyjournals{journals}
+
+%%\subsection{In Process}
+% %%\subsection{Refereed Journal Papers} \nocitejournals{*}
+\vspace*{1em}
+\nociteinprocess{*}
+\bibliographystyleinprocess{unsrt}
+\bibliographyinprocess{inprocess}
+
+% 'publications' is the name of a BibTeX
+% file
+%%\subsection{Conference Proceedings} \nociteconferences{*}
+% \vspace*{1em}
+% \nociteconferences{*}
+% \bibliographystyleconferences{unsrt}
+% \bibliographyconferences{conferences}
+
+% \vspace*{1em}
+% \nocitetalks{*}
+% \bibliographystyletalks{unsrt}
+% \bibliographytalks{posters}
+
+\vspace*{1em}\subsection{Ph.D. Thesis} \cvline{Title}{\emph{Statistical Methods for
+    the Integrated Analysis of Expression Quantitative Traits}}
+\cvline{Advisor}{Eleazar Eskin, Ph.D.}
+\cvline{Committee}{Nicholas
+  Schork, Ph.D.,
+  Vineet Bafna, Ph.D., Amy Pasquinelli, Ph.D. and Bing Reng, Ph.D.}
+
+\section{Peer Reviewing}
+
+\vspace*{1em}\subsection{Journals} \cvline{2014} {Genome Research} \cvline{2012}{IEEE/ACM Transactions on Computational Biology} \cvline{2012}{Nature Communications} \cvline{2009}{Bioinformatics}
+
+\vspace*{1em}\subsection{Conferences} \cvline{2014}{22nd Annual
+  International Conference on Intelligent Systems for Molecular
+  Biology (ISMB 2014)} \cvline{2009}{17th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB 2009)} \cvline{2008}{13th Annual International Conference on Research in Computational Molecular Biology (RECOMB 2009)} \cvline{2007}{16th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB 2008)} \cvline{2004}{The Ninth Annual International Conference on Research in Computational Molecular Biology (RECOMB 2005)}
+
+%\section{Conference Posters}
+%\nociteposters{*}
+%\bibliographystyleposters{unsrt}
+%\bibliographyposters{posters}
+%\section{Under Review}
+%\nociteunderreview{*}
+%\bibliographystyleunderreview{unsrt}
+%\bibliographyunderreview{underreview}
+%\section{Technical Skills}
+%\cvline{}{C++/C, R, Matlab, Latex, Emacs, Word, Excel, PowerPoint}
+
+% \section{References}
+% \cvdoublecolumn{\cvreference{Aviv Regev, Ph.D.}
+% {Core Member, Broad Institute}
+% {Associate Professor, Department of Biology}
+% {Massachusetts Institute of Technology}
+% {7 Cambridge Center}
+% {Cambridge, MA 02142}
+% {aregev@broadinstitute.org}
+% {(617) 714-7020}\\[1em]
+% \cvreference{Nir Hacohen, Ph.D.}
+% {Associate Member, Broad Institute}
+% {Assistant Professor, Department of Medicine}
+% {Harvard Medical School}
+% {7 Cambridge Center}
+% {Cambridge, MA 02142}
+% {nhacohen@partners.org}
+% {(617) 724-3768}
+% }
+% {\cvreference{Eleazar Eskin, Ph.D.}
+% {Associate Professor, Department of Human Genetics}
+% {Department of Computer Science}
+% {University of California, Los Angeles}
+% {3532-J Boelter Hall}
+% {Los Angeles, CA 90095}
+% {eeskin@cs.ucla.edu}
+% {(310) 594-5112}\\[1em]
+% \cvreference{Barbara Stranger, Ph.D.}
+% {Assistant Professor of Medicine}
+% {The University of Chicago}
+% {5841 South Maryland Avenue}
+% {MC 6092}
+% {Chicago, IL 60637}
+% {bstranger@medicine.bsd.uchicago.edu}
+% {(773) 702-1234}
+% }
+% \cvreference{Eric Lander, Ph.D.}
+% {Director, Broad Institute}
+% {Professor, Department of Biology}
+% {Massachusetts Institute of Technology}
+% {7 Cambridge Center}
+% {Cambridge, MA 02142}
+% {lander@broadinstitute.org}
+% {617-714-7011}
+% }
+%%\cvline{Hyun Min Kang}
+%%\cvline{Vineet Bafna}
+
+% \section{Updated}
+% \cvitem{}{\today}
+
+\end{document}
+
+%% end of file `template_en.tex'.
