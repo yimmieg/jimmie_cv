@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+
+\bibitem{lee_genetic_2012}
+Mark Lee, \textbf{Chun Ye}, A.-Chloe Villani, Weibo Li, Selina Imboywa, Portia
+  Chipendo, Michelle Lee, Philip~De Jager, Chirstophe Benoist, Aviv Regev, and
+  Nir Hacohen.
+\newblock Gene expression variation in the response of human monocyte-derived
+  dendritic cells to {LPS} and influenza d{NS1} stimulation.
+\newblock In {\em Proceedings of the American Society of Human Genetics Annual
+  Meeting}, San Francisco, California, November 6--10 2012.
+
+\bibitem{kirby_combination_2012}
+Andrew Kirby, Andy Gnirke, David Jaffe, V~Baresova, Nathalie Pochet,
+  B~Blumenstiel, Chun Ye, D~Aird, C~Stevens, Jim Robinson, M~Calibi, Irit
+  Gat-Viks, E.~Kelliher, R.~Daza, M.~DeFelice, H.~Hulkova, J.~Sovova,
+  C.~Antignac, Mitch Guttman, Rob Handsaker, Kisten Lindblad-Toh, Stacey
+  Gabriel, P.~S. Hart, Aviv Regev, Chad Nusbaum, S.~Kmoch, A.~Bleyer, Eric
+  Lander, and Mark Daly.
+\newblock Combination of modern and traditional techniques identify mckd1
+  causal frameshift variants within the muc1 vntr.
+\newblock In {\em Poster Proceedings of the 61th Annual Meeting of The American
+  Society of Human Genetics}, San Francisco, California, November 06--10 2012.
+
+\bibitem{sul_effectively_2012}
+Jae~Hoon Sul, Buhm Han, Chun Ye, Ted Choi, and Eleazar Eskin.
+\newblock Effectively identifying and characterizing eqtls from multiple
+  tissues using a meta-analytic approach.
+\newblock In {\em Poster Proceedings of the 61th Annual Meeting of The American
+  Society of Human Genetics}, San Francisco, California, November 06--10 2012.
+
+\bibitem{lee_genetical_2011}
+Mark~N. Lee, Chun Ye, Alexandria-Chloe Villani, Phil~De Jager, Aviv Regev, and
+  Nir Hacohen.
+\newblock A genetical genomics approach to understanding the regulatory
+  mechanisms of host-pathogen interactions in humans.
+\newblock In {\em Poster Proceedings of the 60th Annual Meeting of The American
+  Society of Human Genetics}, Montreal, Canada, October 11--15 2011.
+
+\bibitem{ye_empirical_2011}
+\textbf{Chun Ye}, Buhm Han, Ted Choi, Aviv Regev, and Eleazar Eskin.
+\newblock An {E}mpirical {B}ayes based method to identify cis-e{QTLs} across
+  multiple related conditions.
+\newblock In {\em Proceedings of the American Society of Human Genetics Annual
+  Meeting}, Montreal, Canada, October 11--15 2011.
+
+\bibitem{furlotte_mixed_2011}
+Nicholas Furlotte, Hyun~Min Kang, \textbf{Chun Ye}, and Eleazar Eskin.
+\newblock Mixed model coexpression ({MMC}): calculating gene coexpression while
+  accounting for expression heterogeneity.
+\newblock In {\em Proceedings of the 19th Annual International Conference on
+  Intelligent Systems for Molecular Biology}, Vienna, Austria, July 17--19
+  2011.
+
+\bibitem{han_leveraging_2009}
+Buhm Han, \textbf{Chun Ye}, Ted Choi, and Eleazar Eskin.
+\newblock Leveraging joint test status distribution for an optimal significance
+  testing.
+\newblock In {\em Proceedings of the {NIPS} 2009 Workshop on Machine Learning
+  in Computational Biology}, Whistler, Canada, December 11--12 2009.
+
+\bibitem{ye_optimal_2009}
+Chun Ye, Buhm Han, Ted Choi, and Eleazar Eskin.
+\newblock Optimally discoverying cis eqtls across multiple tissues.
+\newblock In {\em Poster Proceedings of the 59th Annual Meeting of The American
+  Society of Human Genetics}, Honolulu, Hawaii, October 20--24 2009.
+
+\bibitem{furlotte_small_2009}
+Nick Furlotte, Hyun~Min Kang, Chun Ye, and Eleazar Eskin.
+\newblock Small-module-targeting (smt) coexpression: Priotizing gene and module
+  specific coexpressions by accounting for expression heterogeneity.
+\newblock In {\em Poster Proceedings of the 13th Annual International
+  Conference on Research in Computational Molecular Biology (RECOMB)}, Tuscon,
+  Arizona, May 18--21 2009.
+
+\bibitem{kang_accurate_2008}
+Hyun~Min Kang, Chun Ye, and Eleazar Eskin.
+\newblock Accurate discovery of expression quantitative trait loci under
+  confounding from spurious and genuine regulatory hotspots.
+\newblock In {\em Poster Proceedings of the 58th Annual Meeting of The American
+  Society of Human Genetics}, Philadelphia, Pennsylvania, November 11--15 2008.
+
+\bibitem{kang_detectingpresence_2008}
+Eun~Yong Kang, Hyun~Min Kang, \textbf{Chun Ye}, Ilya Shpitser, and Eleazar
+  Eskin.
+\newblock Detecting the presence and absence of causal relationships between
+  expression of yeast genes with very few samples.
+\newblock In {\em Proceedings of the 13th Annual International Conference on
+  Research in Computational Molecular Biology}, Tuscon, Arizona, May 18--21
+  2009.
+
+\bibitem{kang_detectingpresence_2008-1}
+Eun~Yong Kang, Hyun~Min Kang, \textbf{Chun Ye}, Ilya Shpitser, and Eleazar
+  Eskin.
+\newblock Detecting the presence and absence of causal relationships between
+  expression of yeast genes with very few samples.
+\newblock In {\em Proceedings of the {NIPS} 2008 Workshop on Machine Learning
+  in Computational Biology}, Whistler, Canada, December 11--12 2008.
+
+\bibitem{ye_high-density_2006}
+\textbf{Chun Ye}, Matthew~A. Zapala, Hyun~Min Kang, Jennifer Wessel, Eleazar
+  Eskin, and Nicholas Schork.
+\newblock {High-density} {QTL} mapping to identify phenotypes and loci
+  influencing gene expression patterns in entire biochemical pathways.
+\newblock In {\em Proceedings of the {RECOMB} Satellite Conference on Systems
+  Biology and Computational Proteomics}, San Diego, California, November
+  30--December 1 2007.
+
+\bibitem{ye_discovering_2007-2}
+\textbf{Chun Ye} and Eleazar Eskin.
+\newblock Discovering tightly regulated and differentially expressed gene sets
+  in whole genome expression data.
+\newblock In {\em Proceedings of the 5th European Conference on Computational
+  Biology {(ECCB-2006)}}, Eilat, Israel, January 21--24 2007.
+
+\end{thebibliography}

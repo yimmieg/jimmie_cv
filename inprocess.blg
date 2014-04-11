@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: inprocess.aux
+The style file: unsrt.bst
+Database file #1: inprocess.bib
+I was expecting an "="---line 22 of file inprocess.bib
+ : @comment 
+ :          author = {\textbf{Chun Ye} and Aviv Regev and Noah Zaitlen},
+I'm skipping whatever remains of this entry
+Repeated entry---line 31 of file inprocess.bib
+ : @comment @unpublished{YeZaitlen:2014
+ :                                     ,
+I'm skipping whatever remains of this entry
+Warning--empty author in YeZaitlen:2014
+Warning--empty title in YeZaitlen:2014
+Warning--empty note in YeZaitlen:2014
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            456 strings with 4223 characters,
+and the built_in function-call counts, 490 in all, are:
+= -- 24
+> -- 56
+< -- 0
++ -- 20
+- -- 17
+* -- 45
+:= -- 104
+add.period$ -- 7
+call.type$ -- 3
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 12
+empty$ -- 25
+format.name$ -- 17
+if$ -- 86
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 16
+num.names$ -- 2
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 2
+width$ -- 4
+write$ -- 26
+(There were 2 error messages)
